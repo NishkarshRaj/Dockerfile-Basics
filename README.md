@@ -20,3 +20,20 @@ Docker Containers and Images using Go and DockerFile.
 3. Networking
   * [EXPOSE command](https://github.com/NishkarshRaj/Docker/tree/master/Networking/1-EXPOSE)
   * [Subnetting Network](https://github.com/NishkarshRaj/Docker/tree/master/Networking/Network)
+
+
+# Basics of Dockerfile
+  
+## Creation of Dockerfile
+
+**Syntax:**
+```
+vi Dockerfile
+```
+   
+## Building a Dockerfile
+**Syntax:**
+```
+docker build -t <docker image name> <path of Dockerfile>
+```
+*Generally, Dockerfiles are stored on current path of build and must be specified by wildcard character .*
