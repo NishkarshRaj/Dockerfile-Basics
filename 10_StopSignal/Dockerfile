@@ -1,0 +1,3 @@
+FROM ubuntu
+
+STOPSIGNAL SIGKILL
