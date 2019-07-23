@@ -31,9 +31,15 @@ Docker Containers and Images using Go and DockerFile.
 vi Dockerfile
 ```
    
-## Building a Dockerfile
+## Building a Dockerfile to create Docker Image
 **Syntax:**
-```
+```docker
 docker build -t <docker image name> <path of Dockerfile>
 ```
 *Generally, Dockerfiles are stored on current path of build and must be specified by wildcard character .*
+
+## Running a Docker Image to create Docker Container
+**Syntax:**
+```docker
+docker run -it --name <Docker Container Name> --rm <Docker image name> <list of executable commands separated by ;>
+```
