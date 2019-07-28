@@ -4,7 +4,7 @@ Docker Containers and Images using Go and DockerFile.
 ## Content:
 
 1. Dockerfiles
-  * [FROM and RUN command](https://github.com/NishkarshRaj/Dockererfile-Basics/tree/master/1_from_run_keyword)
+  * [FROM and RUN command](https://github.com/NishkarshRaj/Dockerfile-Basics/tree/master/1_from_run_keyword)
   * [CMD command](https://github.com/NishkarshRaj/Dockerfile-Basics/tree/master/2_CMD)
   * [COPY command](https://github.com/NishkarshRaj/Dockerfile-Basics/tree/master/3_Copy)
   * [ADD command](https://github.com/NishkarshRaj/Dockerfile-Basics/tree/master/4_Add)
