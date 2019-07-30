@@ -30,5 +30,6 @@ Here,
 -it is used to open the container in interactive mode
 
 If, -it is not used:
-Docker Container launches itself, executes the CMD commands, shows its output and the container gets destroyed.
+Docker Container launches itself, executes the CMD commands and shows its output.
+At last, the container gets destroyed automatically.
 ```
